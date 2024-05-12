@@ -5,5 +5,3 @@ const { log } = require('console');
 
 const app = express();
 const game = new phaser.Game();
-
-log(game.canvas.getContext('2d'))
