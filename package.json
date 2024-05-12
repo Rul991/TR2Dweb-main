@@ -1,0 +1,22 @@
+{
+  "name": "tr2dweb-main",
+  "version": "0.0.1",
+  "description": "Fan-made port on Browser for God's Star",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "game",
+    "gods",
+    "star",
+    "gods",
+    "star",
+    "web"
+  ],
+  "author": "Rul",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^3.80.1"
+  }
+}
