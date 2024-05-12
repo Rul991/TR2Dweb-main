@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God's Star</title>
+</head>
+<body>
+    <script>
+        fetch('scripts.txt').then(res => res.text()).then(data => {
+            console.log(data)
+            data.replaceAll(' ', '').split('\n').forEach(src => {
+                let script = document.createElement('script')
+                script.src = src
+                document.body.appendChild(script)
+            })
+        })
+    </script>
+</body>
+</html>
